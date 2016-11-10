@@ -1,12 +1,20 @@
 {
-    "name": "Yis",
-    "version": "1.0.0",
-    "main": "path/to/main.css",
-    "ignore": [
-        ".jshintrc", "**/*.txt"
-    ],
-    "dependencies": {
-    },
-    "devDependencies": {
-    }
+  "name": "Yis",
+  "version": "1.0.0",
+  "main": "path/to/main.css",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt",
+    "node_modules",
+    "bower_components",
+    "test",
+    "*.*",
+    "src"
+        
+  ],
+  "dependencies": {
+    "bootstrap": "3.3.7",
+    "jquery": "3.1.1"
+  },
+  "devDependencies": {}
 }
