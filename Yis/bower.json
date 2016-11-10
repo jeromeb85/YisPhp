@@ -8,13 +8,17 @@
     "node_modules",
     "bower_components",
     "test",
-    "*.*",
+    "fonts",
     "src"
-        
   ],
   "dependencies": {
     "bootstrap": "3.3.7",
-    "jquery": "3.1.1"
+    "jquery": "3.1.1",
+    "font-awesome": "4.7.0",
+    "jquery-ui": "1.12.1",
+    "fullcalendar": "3.0.1",
+    "jquery-validation": "1.15.1",
+    "modernizr": "3.3.1"
   },
   "devDependencies": {}
 }
